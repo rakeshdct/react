@@ -33,6 +33,9 @@ constructor() {
   render(){
     return(
      <div className="container">
+       <div className="col-lg-12" >
+       <h2>Responsive Weather Wiget</h2>
+       </div>
      {this.weather.data.map((data, i) => <Widget key = {i} data = {data} />)}
      </div>
     );
