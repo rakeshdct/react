@@ -1,0 +1,28 @@
+@import 'bootstrap.css';
+body {
+	font-family: arial;
+}
+.widget {
+	width: 100%;
+	border: 1px solid #e4f5fc;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 20px 0 20px 20px;
+	margin: 10px 0 10px;
+	background: linear-gradient(to bottom, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+}
+.widget .image {
+	width: 25%;
+	float: left;
+}
+.widget .image img {
+	width: 100%;
+}
+.widget .right {
+	width: 60%;
+	float: right;
+}
+.widget .temp {
+	font-size: 30px;
+	font-weight: bold;
+}
